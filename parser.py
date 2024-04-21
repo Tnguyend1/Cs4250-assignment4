@@ -8,7 +8,7 @@ def connectDataBase():
     # Create a database connection object using pymongo
     client = MongoClient('mongodb://localhost:27017/')
     db = client['web_crawler_db']
-    return db['pages']
+    return db['professors']
 
 
 #connect to db
